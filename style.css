@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px; */
+}
+.logo img{
+    width: 100px;
+    height: auto;
+
+}
+.img{
+    width : 20px;
+    height: 20px;
+}
+.center-nav{
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 500px;
+    height: 30px;
+    padding: 0px 10px;
+    border: 0.5px solid rgb(205, 204, 204);
+    border-radius: 20px 0px 0px 20px;
+}
+.search button{
+    border: none;
+    padding: 4px 10px;
+    height: 30px;
+    background-color: rgb(226, 226, 226);;
+    border-radius: 0px 20px 20px 0px;
+}
+.mic{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    /* padding: 20px; */
+    background-color: rgb(226, 226, 226);
+    margin-left: 10px;
+}
+.mic img{
+    width: 25px;
+
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+.side-nav img{
+    width: 30px;
+    height: 30px;
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid rgb(212, 207, 207);
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: rgb(240, 238, 238);
+    color: rgb(78, 77, 77);
+}
+.container{
+    display: flex;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.side-icons img{
+    width: 30px;
+}
+.side-icons p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.bars{
+    margin-top: 10px;
+}
+.main-container{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    background-color: rgb(240, 238, 238);
+}
+.card img{
+    width:88%;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+}
+.card{
+    padding: 10px;
+    max-width: 547px;
+    display: flex;
+    flex-direction: column;
+
+}
+.avatar-content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.card-container h3{
+    font-size: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}
